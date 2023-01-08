@@ -1,7 +1,8 @@
 import java.util.Arrays;
 
 public class s30 {
-    //
+    //kendisine parametre olarak gelen 2 boyutlu 2 String dizisinin sütünlerini ayrı ayrı toplayan ve sonuçları
+    //tek boyutlu diziye aktaraıp geri döndüren rekürsif fonksiyonu yazınız.
     public static String[][] birlestirD(String[][] dizi1, String[][] dizi2, int i, int j) {
         if (i == dizi1.length) return dizi1;
         else {
